@@ -8,3 +8,7 @@ body {
 .cryptedmail:after {
     content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
 }
+
+.orange-border {
+    border: 1.5px solid #fe8908;
+}
