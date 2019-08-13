@@ -1,0 +1,10 @@
+body {
+    font-family: 'Alef', sans-serif;
+    font-size: 20px;
+    align: right;
+    direction: rtl;
+}
+
+.cryptedmail:after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+}
