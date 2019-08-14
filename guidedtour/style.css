@@ -6,9 +6,17 @@ body {
 }
 
 .cryptedmail:after {
-    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
 }
 
 .orange-border {
     border: 1.5px solid #fe8908;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 640px) {
+    /* Styles */
+    .ibm-logo {
+        width: 50%;
+    }
 }
